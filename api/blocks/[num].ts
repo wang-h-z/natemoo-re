@@ -1,5 +1,5 @@
 import { NowRequest, NowResponse } from "@vercel/node";
-import { renderToString } from "react-dom/server";
+import { renderToString } from "react-dom/server.js";
 import Block from '../../components/Block';
 import { getBlockColor, setBlockColor } from "../../utils/db";
 import { getNextColor } from '../../utils/colors';
