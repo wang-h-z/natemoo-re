@@ -1,5 +1,5 @@
 import { NowRequest, NowResponse } from "@vercel/node";
-import { renderToString } from "react-dom/server.js";
+import { renderToString } from "react-dom/server";
 import { Track } from "../components/Track";
 import { topTrack } from "../utils/spotify";
 
